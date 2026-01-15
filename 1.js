@@ -1,30 +1,21 @@
-const firstType = 'строчный'
-console.log(firstType ,typeof firstType)
+let string ="строчный"
+let number = 13
+let boolean = true
+let noll = null
 
-const secondType = 5
-console.log(secondType, typeof secondType)
-
-const thirdType = true
-console.log(thirdType, typeof thirdType)
-
-const fourthType = null
-console.log(fourthType, typeof fourthType)
-
-let fifthType;
-console.log(fifthType, typeof fifthType)
-
-const sixthType ={
-    firstType: 'строчный',
-    secondType: 5,
-    thirdType:true,
-    fourthType: null,
+let objeckt = {
+    string: "строчный",
+    number: 13,
+    boolean: true,
+    noll: null,
+    
 }
-console.log(sixthType, typeof sixthtype)
-
-
-
-const eighthType = BigInt(10)
-console.log(eighthType, typeof eighthType)
-
-const seventhType = Symbol(seventhType)
-console.log(seventhType, typeof seventhType)
+let symbol = Symbol(o)
+let bigInt = BigInt(85)
+console.log(String(bigInt), Number(bigint), Boolean(bigInt))
+console.log(String(srting), Number(string), Boolean(string))
+console.log(String(number), Number(number), Boolean(number))
+console.log(String(boolean), Number(boolean), Boolean(boolean))
+console.log(String(noll), Number(noll), Boolean(noll))
+console.log(String(objeckt), Number(objeckt), Boolean(objeckt))
+console.log(String(symbol), Number(symbol), Boolean(symbol))
